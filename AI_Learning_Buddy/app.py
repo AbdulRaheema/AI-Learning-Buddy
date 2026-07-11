@@ -70,4 +70,4 @@ if st.button("Generate 🚀"):
             st.error(str(e))
 
 st.markdown("---")
-st.caption("Created for the Infosys AI POW(H)ER Capstone Project")
+st.caption("Powered by Google Gemini • Built with Streamlit")
