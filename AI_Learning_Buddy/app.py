@@ -12,12 +12,8 @@ st.write("Learn any topic with the help of Google Gemini AI.")
 
 # Sidebar
 st.sidebar.header("Settings")
-api_key = st.sidebar.text_input("Enter your Gemini API Key", type="password")
-
-if api_key:
-    client = genai.Client(api_key=api_key)
-else:
-    client = None
+api_key = st.secrets["GEMINI_API_KEY"]
+client = genai.Client(api_key=api_key)
 
 topic = st.text_input("📘 Enter a Topic")
 
