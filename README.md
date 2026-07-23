@@ -16,8 +16,3 @@ AI Learning Buddy is an AI-powered educational web application developed using *
 - Google Gemini API
 - Google AI Studio
 
-## Installation
-
-1. Clone the repository
-```bash
-git clone https://github.com/AbdulRaheema/AI-Learning-Buddy.git
